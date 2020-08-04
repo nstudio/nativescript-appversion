@@ -16,7 +16,7 @@ Read the current Package ID and Version (name and code) of your NativeScript app
 Run the following command from the root of your project:
 
 ```
-tns plugin add nativescript-appversion
+tns plugin add @nativescript/appversion
 ```
 
 ## Usage
@@ -25,12 +25,12 @@ To use this plugin you must first require / import it:
 
 #### JavaScript
 ```js
-var appversion = require("nativescript-appversion");
+var appversion = require("@nativescript/appversion");
 ```
 
 #### TypeScript
 ```typescript
-import * as appversion from "nativescript-appversion";
+import * as appversion from "@nativescript/appversion";
 ```
 
 ### getVersionName(Sync)
